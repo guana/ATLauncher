@@ -1,0 +1,18 @@
+-- @path Composed=/Test/transformations/Composed.ecore
+-- @path Simple=/Test/transformations/Simple.ecore
+-- @atlcompiler emftvm
+
+module Composed2Simple;
+create OUT : Simple from IN : Composed;
+
+rule Composed2Simple {
+	from
+		composed : Composed!Student
+	to 
+		simple : Simple!StudentSimple (
+			name <- composed.name,
+			supervisor <- composed.supervisor.name,
+			affiliation <- composed.supervisor.affiliation.name
+
+		)
+}
