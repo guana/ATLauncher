@@ -27,6 +27,7 @@ import org.eclipse.m2m.atl.emftvm.util.TimingData;
  * @author Victor Guana - guana@ualberta.ca
  * University of Alberta - SSRG Lab.
  * Edmonton, Alberta. Canada
+ * Using code examples from: https://wiki.eclipse.org/ATL/EMFTVM
  */
 public class ATLLauncher {
 	
