@@ -23,7 +23,7 @@ import org.eclipse.m2m.atl.emftvm.util.ModuleResolver;
 import org.eclipse.m2m.atl.emftvm.util.TimingData;
 
 /**
- * An off-the-shelf launcher for ATL/EMFV transformations
+ * An off-the-shelf launcher for ATL/EMFTVM transformations
  * @author Victor Guana - guana@ualberta.ca
  * University of Alberta - SSRG Lab.
  * Edmonton, Alberta. Canada
